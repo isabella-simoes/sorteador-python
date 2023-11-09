@@ -1,0 +1,10 @@
+import random
+nomes =[]
+while True:
+    nomes.append (input('digite um nome'))
+    sair = input('deseja sair?')
+    if sair == 'sim':
+        break
+print(nomes)
+sorteado = random.choice(nomes)
+print(f'o nome sorteado é {sorteado}')
