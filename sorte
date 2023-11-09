@@ -7,4 +7,6 @@ while True:
         break
 print(nomes)
 sorteado = random.choice(nomes)
-print(f'o nome sorteado é {sorteado}')
+# print(f'o nome sorteado é {sorteado}')
+ordemaleatoria = random.shuffle(nomes)
+print(nomes)
